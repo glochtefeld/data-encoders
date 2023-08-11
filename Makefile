@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-g -lm
+CFLAGS=-g -lm -Wall
 
 example:
 	$(CC) -o $@ example.c base64.h $(CFLAGS)
